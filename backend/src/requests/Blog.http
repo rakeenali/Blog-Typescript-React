@@ -1,0 +1,32 @@
+// Add blog
+# POST http://localhost:3000/blog
+# content-type: application/json
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhbXBsZSIsImlkIjo1LCJleHAiOjE1Njc0NDE4NzR9._TV2J1Vr-8bTRtc8TsLvGMg-NyGw2AoB62WAkB5oaIM
+
+# {
+#     "title": "Some title number six",
+#     "description": "This is some description"
+# }
+
+
+// Update blog
+# POST http://localhost:3000/blog/8
+# content-type: application/json
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhbXBsZSIsImlkIjo1LCJleHAiOjE1Njc0NDE4NzR9._TV2J1Vr-8bTRtc8TsLvGMg-NyGw2AoB62WAkB5oaIM
+
+# {
+#     "title": "Some title number six",
+#     "description": "This is some description with the updated text"
+# }
+
+
+// delete blog
+# DELETE  http://localhost:3000/blog/8
+# content-type: application/json
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhbXBsZSIsImlkIjo1LCJleHAiOjE1Njc0NDE4NzR9._TV2J1Vr-8bTRtc8TsLvGMg-NyGw2AoB62WAkB5oaIM
+
+// Get a single blog
+# GET http://localhost:3000/blog/7
+
+// Get all the blogs
+GET http://localhost:5000/blog

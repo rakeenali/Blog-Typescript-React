@@ -1,0 +1,23 @@
+# POST http://localhost:3000/profile/manage
+# content-type: application/json
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhbXBsZSIsImlkIjo1LCJleHAiOjE1NjczMjU2Mjd9.G7iCmPvM6dHgfO1w52MBzN2gnWCHqa1BofKpphEUOVw
+
+# {
+#     "firstName": "Sample",
+#     "lastName": "Yet",
+#     "avatar": "https://image.shutterstock.com/image-photo/white-transparent-leaf-on-mirror-260nw-1029171697.jpg"
+# }
+
+// Logged In user
+
+# GET http://localhost:3000/profile/current
+# content-Type: application/json
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhbXBsZSIsImlkIjo1LCJleHAiOjE1Njc0NDE4NzR9._TV2J1Vr-8bTRtc8TsLvGMg-NyGw2AoB62WAkB5oaIM
+
+
+// By username
+GET http://localhost:3000/profile/sample
+content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhbXBsZSIsImlkIjo1LCJleHAiOjE1Njc0NDE4NzR9._TV2J1Vr-8bTRtc8TsLvGMg-NyGw2AoB62WAkB5oaIM
+
+

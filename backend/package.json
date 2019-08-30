@@ -1,0 +1,43 @@
+{
+  "name": "blog-ts-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:ts": "tsc -w",
+    "start:js": "nodemon build/index.js",
+    "start": "concurrently \"npm run start:ts\" \"npm run start:js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.1.1",
+    "@reach/router": "^1.2.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^5.16.0",
+    "styled-components": "^4.3.2",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/bluebird": "^3.5.27",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.1",
+    "@types/hapi__joi": "^15.0.3",
+    "@types/jsonwebtoken": "^8.3.3",
+    "@types/jwt-decode": "^2.2.1",
+    "@types/node": "^12.7.2",
+    "@types/reach__router": "^1.2.4",
+    "@types/styled-components": "^4.1.18",
+    "@types/validator": "^10.11.3",
+    "concurrently": "^4.1.2"
+  }
+}

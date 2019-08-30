@@ -1,0 +1,19 @@
+# REGISTER
+# POST http://localhost:3000/auth/register
+# content-type: application/json
+
+# {
+#     "name": "Sample",
+#     "username": "samplee",
+#     "password": "hunter"
+# }
+
+
+# LOGIN
+POST http://localhost:3000/auth/login
+content-type: application/json
+
+{
+    "username": "sample",
+    "password": "hunter"
+}
