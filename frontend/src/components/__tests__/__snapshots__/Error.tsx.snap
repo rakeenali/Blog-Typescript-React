@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Error/> render correctly 1`] = `
+<div
+  class="sc-bdVaJa dAfcRe"
+>
+  <button
+    class="sc-bwzfXH feCttl"
+  >
+    ×
+  </button>
+  <h2>
+    An error message
+  </h2>
+</div>
+`;

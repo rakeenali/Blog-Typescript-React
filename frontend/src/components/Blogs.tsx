@@ -18,7 +18,7 @@ const Blogs = (props: Props): JSX.Element => {
   const renderBlogs = (): JSX.Element[] => {
     return props.blogs.map(blog => {
       return (
-        <BlogContainer key={blog.id} onClick={() => goTo(blog.id)}>
+        <BlogContainer key={blog.id} onClick={() => goTo(blog.id)} className="blog-area">
           <h1>{blog.title}</h1>
           <p>{blog.description.substr(0, 100)}</p>
           <div>
