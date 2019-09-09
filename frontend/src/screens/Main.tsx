@@ -9,7 +9,7 @@ const Main = (): JSX.Element => {
   const [blogs, setBlogs] = React.useState<IBlog[] | null>(null);
   const [loading, setLoading] = React.useState<boolean>(true);
 
-  React.useEffect(() => {
+  React.useLayoutEffect(() => {
     setLoading(true);
     axios
       .get("http://localhost:5000/blog")

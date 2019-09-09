@@ -21,8 +21,8 @@ Frontend is created using React with typescript.
 - Profile Details (current-user-context)
 - @reach/router (To setup all the routes)
 - Different states for user (Logged IN/Out)
+- Tests (Frontend)
 - Code-splitting (coming soon)
-- Tests (coming soong)
 
 ### To get started
 
@@ -50,3 +50,17 @@ cd frontend && npm run start
 
 cd backend && npm run start
 ```
+
+## Testing the app
+
+```shell
+# Run the tests for the frontend
+
+cd frontend
+npm run test
+npm run test:coverage
+```
+
+##### Coverage Report
+
+![Test coverage report](./images/coverage-report.PNG)

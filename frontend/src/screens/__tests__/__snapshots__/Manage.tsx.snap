@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Manage/> renders the form correctly 1`] = `
+<div
+  class="sc-ifAKCX kMXFrU"
+>
+  <div
+    class="sc-bdVaJa ilTCYI"
+    height="80%"
+    width="60%"
+  >
+    <div
+      class="sc-EHOje ePbsYW"
+    >
+      <h1
+        class="sc-bZQynM hQqxvj"
+      >
+        Manage Profile
+      </h1>
+      <div>
+        <form
+          class="sc-gzVnrw ieXoIT"
+        >
+          <div
+            class="sc-htoDjs khaQSc"
+          >
+            <label
+              for="firstName"
+            >
+              First Name
+            </label>
+            <input
+              autocomplete="off"
+              id="firstName"
+              name="firstName"
+              placeholder="First Name"
+              required=""
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="sc-htoDjs khaQSc"
+          >
+            <label
+              for="lastName"
+            >
+              Last Name
+            </label>
+            <input
+              autocomplete="off"
+              id="lastName"
+              name="lastName"
+              placeholder="Last Name"
+              required=""
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="sc-htoDjs khaQSc"
+          >
+            <label
+              for="avatar"
+            >
+              Avatar's Link
+            </label>
+            <input
+              autocomplete="off"
+              id="avatar"
+              name="avatar"
+              placeholder="Avatar's Link"
+              required=""
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="sc-htoDjs khaQSc"
+          >
+            <button
+              class="sc-bwzfXH ktHgFu"
+            >
+              Proceed
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

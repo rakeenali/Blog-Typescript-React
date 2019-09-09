@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddBlog/> renders correctly 1`] = `
+<div
+  class="sc-ifAKCX kMXFrU"
+>
+  <div
+    class="sc-htpNat gPXkgh"
+    height="480px"
+    width="80%"
+  >
+    <div
+      class="sc-EHOje ePbsYW"
+    >
+      <h1
+        class="sc-bZQynM cZORyu"
+      >
+        Publish Your Blog
+      </h1>
+      <div>
+        <form
+          class="sc-gzVnrw ieXoIT"
+        >
+          <div
+            class="sc-htoDjs ihKokW"
+          >
+            <label
+              for="title"
+            >
+              Title
+            </label>
+            <input
+              id="title"
+              name="title"
+              placeholder="Title"
+              required=""
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="sc-htoDjs ihKokW"
+          >
+            <label
+              for="description"
+            >
+              Description
+            </label>
+            <textarea
+              id="description"
+              name="description"
+              placeholder="Description"
+              required=""
+              rows="6"
+            />
+          </div>
+          <div
+            class="sc-htoDjs ihKokW"
+          >
+            <button
+              class="sc-bxivhb chPYTn"
+            >
+              Publish
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

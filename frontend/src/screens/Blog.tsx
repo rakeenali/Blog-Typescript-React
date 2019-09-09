@@ -44,7 +44,7 @@ const Blog = (props: Props): JSX.Element => {
           }
         });
     }
-  }, [props.id, update, userState.userId]);
+  }, [props.id, userState.userId]);
 
   const sendToProfile = () => {
     if (blog) {

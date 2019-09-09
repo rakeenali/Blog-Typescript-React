@@ -25,7 +25,11 @@ const Profile = (): JSX.Element => {
     );
   }
 
-  return <></>;
+  return (
+    <>
+      <h3>loading</h3>
+    </>
+  );
 };
 
 export default Profile;

@@ -24,7 +24,7 @@ export default function App(): JSX.Element {
   }, [user.isAuthenticated, dispatch]);
 
   if (loading) {
-    return <></>;
+    return <>loading</>;
   }
 
   if (user.isAuthenticated) {
